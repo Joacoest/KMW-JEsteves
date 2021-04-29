@@ -1,0 +1,41 @@
+footer	{
+	background-color: #44577F;
+	color: #ffffff;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	p {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.socialmedia {
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+		a {
+			color: #44577F;
+			background-color: white;
+			border-radius: 50%;
+			margin:10px;
+			padding: 10px;
+			display: flex;
+			flex-flow: row nowrap;
+			align-content: center;
+			justify-content: center;	
+		}
+		a:hover{
+			color:#44577F;
+			background-color:#F9DE92;
+			}
+		.ion-social-facebook{
+			margin:0px 5px 0px 5px;
+			}
+	}	
+}

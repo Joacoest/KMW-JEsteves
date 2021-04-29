@@ -1,0 +1,115 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+body {
+	font-family: "open sans", sans-serif;
+	font-size: medium;
+	background-image: url("../img/fondo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	a {
+		text-decoration: none;
+	}
+	h2, h3 {
+		color: $font-color;
+		padding: 10px;
+		text-align: center;
+		text-shadow: 2px 2px 5px #44577F;
+	}
+
+	.ouractivities {
+		margin: 20px;
+	}
+
+	.indeximg {
+		width: 50%;
+		height: auto;
+		border-radius: 20px;
+		position:relative;
+		left: 28%;
+	}
+
+	.videoau {
+		border-radius: 20px;
+		position: relative;
+		left: 28%; 
+	}
+
+	.contactimg{
+		width: 50%;
+		height: auto;
+		border-radius: 20px;
+		position:relative;
+		left: 25%;
+	}
+
+	article	{
+		background-color: $bg-article; 
+		color: $color-article;
+		display: flex;
+		justify-content: center;
+		border-radius: 5px;
+		padding: 5px;
+	}
+
+
+	h4 {
+		color: black;
+		text-shadow: 1px 1px 10px white; 
+	}
+
+	/*Tabla en Our Kayaks*/
+
+	.tabla {
+		margin: 10px;
+		width: 100%;
+		table, th, td {
+			color: black;
+			background-color: #F9DE92;
+			border: 2px solid black;
+		}
+	}
+
+	.contactform {
+		position: relative;
+		left: 25%; 
+		width: 50%;
+		padding: 12px 20px; 
+		float: center;
+		input[type=email], input[type=text], select, textarea{
+			width: 100%;
+			padding: 12px 20px;
+			box-sizing: border-box;
+			cursor: pointer;
+		}
+		input[type=submit] {
+			background-color: #74c69d;
+			color: black;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			float: center;
+		}
+		input[type=reset] {
+			background-color: coral;
+			color: black;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			float: center;
+		}
+		label{
+			color: black;
+			background-color: $bg-color;
+			border-radius: 7px;
+		}
+	}
+}
+
+
+
+

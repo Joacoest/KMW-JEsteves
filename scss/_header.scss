@@ -1,0 +1,21 @@
+@import "variables";
+
+.navbar-dark {  
+		background-color: $bg-color !important;
+		border-radius: 20px;
+		a {
+		color: $color-principal !important;
+		text-shadow: 1px 1px 10px grey;
+
+	}
+	.navbar-toggler-icon{
+		color: $color-principal !important;
+	}
+	
+.nav-item {
+		margin: 20px; 
+	}
+	.logoimg {
+		border-radius: 50%;
+	}
+}	
