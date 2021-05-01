@@ -2,16 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 .navbar-dark {
   background-color: #F9DE92 !important;
-  border-radius: 20px; }
-  .navbar-dark a {
-    color: #44577F !important;
+  border-radius: 20px;
+  padding: 0; }
+  .navbar-dark .logo {
     text-shadow: 1px 1px 10px grey; }
-  .navbar-dark .navbar-toggler-icon {
+  .navbar-dark a {
     color: #44577F !important; }
+  .navbar-dark .navbar-toggler {
+    color: #44577F !important;
+    border-color: #44577F !important; }
+  .navbar-dark .navbar-collapse {
+    flex-grow: 0 !important; }
   .navbar-dark .nav-item {
     margin: 20px; }
   .navbar-dark .logoimg {
-    border-radius: 50%; }
+    border-radius: 50%;
+    margin-left: 20px; }
 
 footer {
   background-color: #44577F;
@@ -75,7 +81,7 @@ body {
   body .videoau {
     border-radius: 20px;
     position: relative;
-    left: 28%; }
+    left: 25%; }
   body .contactimg {
     width: 50%;
     height: auto;
@@ -88,7 +94,8 @@ body {
     display: flex;
     justify-content: center;
     border-radius: 5px;
-    padding: 5px; }
+    padding: 5px;
+    margin: 15px; }
   body h4 {
     color: black;
     text-shadow: 1px 1px 10px white; }
@@ -111,15 +118,15 @@ body {
       box-sizing: border-box;
       cursor: pointer; }
     body .contactform input[type=submit] {
-      background-color: #74c69d;
-      color: black;
+      background-color: #44577F;
+      color: white;
       padding: 12px 20px;
       border: none;
       border-radius: 4px;
       cursor: pointer;
       float: center; }
     body .contactform input[type=reset] {
-      background-color: coral;
+      background-color: #F9DE92;
       color: black;
       padding: 12px 20px;
       border: none;

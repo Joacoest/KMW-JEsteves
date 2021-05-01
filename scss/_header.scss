@@ -3,13 +3,19 @@
 .navbar-dark {  
 		background-color: $bg-color !important;
 		border-radius: 20px;
+		padding: 0;
+		.logo{
+			text-shadow: 1px 1px 10px grey;
+		}
 		a {
 		color: $color-principal !important;
-		text-shadow: 1px 1px 10px grey;
-
-	}
-	.navbar-toggler-icon{
+			}
+		.navbar-toggler{
 		color: $color-principal !important;
+		border-color: $color-principal !important;
+		}
+.navbar-collapse {
+		flex-grow: 0 !important;	
 	}
 	
 .nav-item {
@@ -17,5 +23,6 @@
 	}
 	.logoimg {
 		border-radius: 50%;
+		margin-left: 20px;
 	}
 }	
