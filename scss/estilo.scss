@@ -12,37 +12,51 @@ body {
 	a {
 		text-decoration: none;
 	}
-	h2, h3 {
+	h2 {
 		color: $font-color;
 		padding: 10px;
 		text-align: center;
 		text-shadow: 2px 2px 5px #44577F;
+		margin-top: 20px;
+
 	}
 
-	.ouractivities {
-		margin: 20px;
+	h3 {
+		color: $font-color;
+		padding: 10px;
+		text-align: center;
+		text-shadow: 2px 2px 5px #44577F;
+		margin: 0px;
 	}
+
+
 
 	.indeximg {
-		width: 50%;
-		height: auto;
 		border-radius: 20px;
-		position:relative;
-		left: 28%;
+		width: 100%;
+		height: auto;
+		margin: 20px 0 40px 0;
 	}
 
 	.videoau {
 		border-radius: 20px;
-		position: relative;
-		left: 25%; 
+		width: 100%;
+		height: auto;
+		margin: 20px 0 40px 0;
 	}
 
 	.contactimg{
-		width: 50%;
+		width: 100%;
 		height: auto;
 		border-radius: 20px;
-		position:relative;
-		left: 25%;
+		margin: 20px 0 40px 0;
+	}
+
+	.carousel {
+		margin-bottom: 20px;
+		.carousel-inner{
+			border-radius: 20px;
+		}
 	}
 
 	article	{
@@ -52,7 +66,7 @@ body {
 		justify-content: center;
 		border-radius: 5px;
 		padding: 5px;
-		margin: 15px;
+		margin: 20px;
 	}
 
 
@@ -64,7 +78,7 @@ body {
 	/*Tabla en Our Kayaks*/
 
 	.tabla {
-		margin: 10px;
+		margin: 20px 0 20px 0;
 		width: 100%;
 		table, th, td {
 			color: black;

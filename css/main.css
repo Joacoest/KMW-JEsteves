@@ -65,29 +65,37 @@ body {
   /*Tabla en Our Kayaks*/ }
   body a {
     text-decoration: none; }
-  body h2, body h3 {
+  body h2 {
     color: #F9DE92;
     padding: 10px;
     text-align: center;
-    text-shadow: 2px 2px 5px #44577F; }
-  body .ouractivities {
-    margin: 20px; }
+    text-shadow: 2px 2px 5px #44577F;
+    margin-top: 20px; }
+  body h3 {
+    color: #F9DE92;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #44577F;
+    margin: 0px; }
   body .indeximg {
-    width: 50%;
-    height: auto;
     border-radius: 20px;
-    position: relative;
-    left: 28%; }
+    width: 100%;
+    height: auto;
+    margin: 20px 0 40px 0; }
   body .videoau {
     border-radius: 20px;
-    position: relative;
-    left: 25%; }
+    width: 100%;
+    height: auto;
+    margin: 20px 0 40px 0; }
   body .contactimg {
-    width: 50%;
+    width: 100%;
     height: auto;
     border-radius: 20px;
-    position: relative;
-    left: 25%; }
+    margin: 20px 0 40px 0; }
+  body .carousel {
+    margin-bottom: 20px; }
+    body .carousel .carousel-inner {
+      border-radius: 20px; }
   body article {
     background-color: #fefae0;
     color: #1d3557;
@@ -95,12 +103,12 @@ body {
     justify-content: center;
     border-radius: 5px;
     padding: 5px;
-    margin: 15px; }
+    margin: 20px; }
   body h4 {
     color: black;
     text-shadow: 1px 1px 10px white; }
   body .tabla {
-    margin: 10px;
+    margin: 20px 0 20px 0;
     width: 100%; }
     body .tabla table, body .tabla th, body .tabla td {
       color: black;
