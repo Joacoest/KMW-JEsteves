@@ -20,9 +20,7 @@ footer	{
 		padding: 0px;
 		list-style: none;
 		a {
-			color: #44577F;
-			background-color: white;
-			border-radius: 50%;
+			color: white;
 			margin:10px;
 			padding: 10px;
 			display: flex;
@@ -31,11 +29,18 @@ footer	{
 			justify-content: center;	
 		}
 		a:hover{
-			color:#44577F;
-			background-color:#F9DE92;
+			color:#F9DE92;
+			
 			}
 		.ion-social-facebook{
 			margin:0px 5px 0px 5px;
 			}
+		p {
+			margin: 0;
+			display: flex;
+			flex-flow: row nowrap;
+			align-content: center;
+			justify-content: center;
+		}
 	}	
 }
